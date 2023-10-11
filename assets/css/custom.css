@@ -4,3 +4,42 @@
     box-sizing: border-box;
 }
 
+.brand-logo {
+    width: 25%;
+    height: auto;
+}
+
+.prgress {
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+}
+
+.cmng-soon {
+    font-size: 6rem;
+    letter-spacing: 1px;
+}
+
+.text-3 {
+    line-height: 30pt;
+}
+
+@media only screen and (max-width: 478px) {
+    .brand-logo {
+        width: 25%;
+        height: auto;
+    }
+    
+    .prgress {
+        letter-spacing: 2px;
+        font-size: 0.5rem;
+    }
+    
+    .cmng-soon {
+        font-size: 2.25rem;
+        letter-spacing: 1px;
+    }
+    
+    .text-3 {
+        line-height: 30pt;
+    }
+}
