@@ -4,56 +4,76 @@
     box-sizing: border-box;
 }
 
-.carousel-item img {
+.container-img {
     object-fit: cover;
 }
 
-.brand-logo {
-    width: 25%;
-    height: auto;
-    margin-top: 70px;
-}
-
-.prgress {
-    letter-spacing: 5px;
-    font-size: 1.063rem;
-    margin-top: 84px;
-    text-transform: uppercase;
-}
-
-.cmng-soon {
-    font-size: 6rem;
-    letter-spacing: 1px;
-}
-
-.text-3 {
-    font-size: 1.75rem;
-    line-height: 30pt;
-}
-
-.text-white {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 14px;
-}
-
-@media only screen and (max-width: 478px) {
+@media only screen and (min-width: 1367px) {
     .brand-logo {
         width: 25%;
         height: auto;
+        margin-top: 70px;
     }
-    
+
     .prgress {
-        letter-spacing: 2px;
-        font-size: 0.5rem;
+        letter-spacing: 5px;
+        font-size: 1.063rem;
+        margin-top: 84px;
+        text-transform: uppercase;
     }
-    
+
     .cmng-soon {
-        font-size: 2.25rem;
+        font-size: 6rem;
         letter-spacing: 1px;
     }
-    
+
     .text-3 {
+        font-size: 1.75rem;
         line-height: 30pt;
+    }
+    
+    .text-white {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 14px;
+    }
+
+    .ornaments {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .brand-logo {
+        width: 25%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .prgress {
+        letter-spacing: 5px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+    }
+
+    .cmng-soon {
+        margin: 0;
+        font-size: 4.5rem;
+        letter-spacing: 1px;
+    }
+
+    .text-3 {
+        font-size: 1.75rem;
+        line-height: 30pt;
+    }
+
+    .text-white {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 14px;
+    }
+
+    .ornaments {
+        height: 200px;
     }
 }
