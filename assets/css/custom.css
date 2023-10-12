@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 
+.carousel-item img {
+    object-fit: cover;
+}
+
 .brand-logo {
     width: 25%;
     height: auto;
+    margin-top: 70px;
 }
 
 .prgress {
-    letter-spacing: 2px;
-    font-size: 1.8rem;
+    letter-spacing: 5px;
+    font-size: 1.063rem;
+    margin-top: 84px;
+    text-transform: uppercase;
 }
 
 .cmng-soon {
@@ -22,6 +29,12 @@
 .text-3 {
     font-size: 1.75rem;
     line-height: 30pt;
+}
+
+.text-white {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 478px) {
