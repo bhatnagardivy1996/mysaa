@@ -12,7 +12,7 @@
     .brand-logo {
         width: 25%;
         height: auto;
-        margin-top: 70px;
+        margin-top: 90px;
     }
 
     .prgress {
@@ -59,9 +59,9 @@
     }
 
     .cmng-soon {
-        margin: 0;
         font-size: 4.5rem;
         letter-spacing: 1px;
+        line-height: 60px;
     }
 
     .text-3 {
