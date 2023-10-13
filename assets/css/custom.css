@@ -25,11 +25,11 @@
     .cmng-soon {
         font-size: 6rem;
         letter-spacing: 1px;
-        line-height: 90px;
+        line-height: 65px;
     }
 
     .text-3 {
-        font-size: 2rem;
+        font-size: 2.25rem;
         line-height: 30pt;
     }
     
@@ -40,7 +40,8 @@
     }
 
     .ornaments {
-        height: 200px;
+        height: 150px;
+        width: 350px;
     }
 
     .social-links a {
@@ -69,7 +70,7 @@
     }
 
     .text-3 {
-        font-size: 1.5rem;
+        font-size: 1.65rem;
         line-height: 30pt;
     }
 
@@ -80,7 +81,8 @@
     }
 
     .ornaments {
-        height: 200px;
+        height: 150px;
+        width: 350px;
     }
 
     .social-links a {
