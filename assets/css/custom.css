@@ -97,3 +97,16 @@
         text-decoration: none;
     }
 }
+
+@media(max-width: 787px){
+    .cmng-soon{
+        font-size: 45px;
+    }
+    .text-3{
+        font-size: 18px;
+        width: 100%;
+    }
+    .contact, .contact a{
+        font-size: 12px;
+    }
+}
